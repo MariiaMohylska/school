@@ -1,0 +1,143 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/jsp/jstl/core" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>ShowClassServlet</servlet-name>
+    <servlet-class>controller.ShowClassServet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowClassServlet</servlet-name>
+    <url-pattern>/main</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>StudentInClassServlet</servlet-name>
+  <servlet-class>controller.StudentInClassServlet</servlet-class>
+</servlet>
+  <servlet-mapping>
+    <servlet-name>StudentInClassServlet</servlet-name>
+    <url-pattern>/students</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>TransferClass</servlet-name>
+    <servlet-class>controller.TransferClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TransferClass</servlet-name>
+    <url-pattern>/mainAfterTransfer</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddClassServlet</servlet-name>
+    <servlet-class>controller.AddClassServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddClassServlet</servlet-name>
+    <url-pattern>/addClass</url-pattern>
+  </servlet-mapping>
+<!---->
+  <servlet>
+    <servlet-name>DeleteClassServlet</servlet-name>
+    <servlet-class>controller.DeleteClassServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteClassServlet</servlet-name>
+    <url-pattern>/deleteClass</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <servlet-class>controller.AddStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <url-pattern>/addStudent</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DeleteStudent</servlet-name>
+    <servlet-class>controller.DeleteStudent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteStudent</servlet-name>
+    <url-pattern>/deleteStudent</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewDetailsStudent</servlet-name>
+    <servlet-class>controller.ViewDetailsStudent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewDetailsStudent</servlet-name>
+    <url-pattern>/viewDetails</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EditPerdonalFileServlet</servlet-name>
+    <servlet-class>controller.EditPerdonalFileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditPerdonalFileServlet</servlet-name>
+    <url-pattern>/editPersonalFile</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EditClassForStudent</servlet-name>
+    <servlet-class>controller.EditClassForStudent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditClassForStudent</servlet-name>
+    <url-pattern>/editClassForStudent</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EditName</servlet-name>
+    <servlet-class>controller.EditName</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditName</servlet-name>
+    <url-pattern>/editName</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EditBday</servlet-name>
+    <servlet-class>controller.EditBday</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditBday</servlet-name>
+    <url-pattern>/editBday</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+    <servlet-name>EditAddress</servlet-name>
+    <servlet-class>controller.EditAddress</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditAddress</servlet-name>
+    <url-pattern>/editAddress</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EditPhone</servlet-name>
+    <servlet-class>controller.EditPhone</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditPhone</servlet-name>
+    <url-pattern>/editPhone</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewMarks</servlet-name>
+    <servlet-class>controller.ViewMarks</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewMarks</servlet-name>
+    <url-pattern>/viewMarks</url-pattern>
+  </servlet-mapping>
+
+</web-app>
